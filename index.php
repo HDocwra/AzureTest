@@ -6,7 +6,7 @@ echo "<h1>Hello!</h1>";
 $options = array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8');
 try {
     $db = new PDO(
-        "mysql:host=localhost;" .
+        "mysql:host='';" .
         "dbname=test;" .
         "charset=utf8",
         "",
